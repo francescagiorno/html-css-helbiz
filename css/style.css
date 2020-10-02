@@ -2,11 +2,37 @@
   border: 1px solid black;
 }
 
-.debug .container [class*="col-"]{
-  border: 1px solid black;
+.top-header.container [class*="col-"] {
+  height: 80px;
+}
+
+.top-header img{
+  width: 80px;
+
 
 }
 
-.top-header.container [class*="col-"]{
-  height: 80px;
+.debug .container [class*="col-"]{
+  border:1px solid black;
+}
+
+.nav-left li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-right li{
+  display: inline-block;
+  margin-right: 10px;
+}
+[class*="nav-"] li a{
+  text-decoration: none;
+  color:black;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+[class*="nav-"]{
+  float: right;
+
 }

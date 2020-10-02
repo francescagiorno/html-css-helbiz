@@ -19,7 +19,7 @@
   float: left;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px){
 
 .col-lg-1{
   width: calc((100% / 12) * 1);
