@@ -1,4 +1,8 @@
-.debug .container{
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+ .debug .container{
   border: 1px solid black;
 }
 
@@ -8,7 +12,7 @@
 
 .top-header img{
   width: 80px;
-
+  vertical-align: middle;
 
 }
 
@@ -19,11 +23,13 @@
 .nav-left li{
   display: inline-block;
   margin-right: 10px;
+
 }
 
 .nav-right li{
   display: inline-block;
   margin-right: 10px;
+
 }
 [class*="nav-"] li a{
   text-decoration: none;
@@ -34,5 +40,19 @@
 
 [class*="nav-"]{
   float: right;
+  text-align: right;
+  line-height: 80px;
+  vertical-align: middle;
 
+}
+
+.ghost-align::before{
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  height: 100%
+}
+
+.f-right{
+  float: right;
 }
