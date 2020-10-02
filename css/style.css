@@ -2,10 +2,11 @@
   border: 1px solid black;
 }
 
-.top-header.container{
-  height: 80px;
+.debug .container [class*="col-"]{
+  border: 1px solid black;
+
 }
 
-[class*="col-"]{
-  border: 1px solid black;
+.top-header.container [class*="col-"]{
+  height: 80px;
 }
